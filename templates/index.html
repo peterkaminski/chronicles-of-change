@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% include '_title.txt' %}</title>
+    <title>{% include '_title.html' %}</title>
     <style>
       body {
           font-family: 'Arial', sans-serif;
@@ -42,7 +42,8 @@
   </head>
   <body>
     <div id="content">
-      <h1>{% include '_title.txt' %}</h1>
+      <h1>{% include '_title.html' %}</h1>
+      <p><em>Last updated: {% include '_last_updated.txt' %}</em></p>
       {% include '_preamble.html' %}
       {% include '_books.html' %}
       <hr>

@@ -2,7 +2,7 @@
 
 # csv2html, a bespoke script for Chronicles of Change, to read the CSV data and write _books.html
 #
-# Usage: ./csv2html.py -i 'site/Chronicles of Change_ Collapse, Resilience, and Humanity's Path Forward - Books.csv' -o templates/_books.html
+# Usage: ./csv2html.py -i "site/Chronicles of Change_ Collapse, Resilience, and Humanity's Path Forward - Books.csv" -o templates/_books.html
 
 import argparse
 import csv
